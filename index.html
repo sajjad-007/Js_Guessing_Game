@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js guessing game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game_main">
+        <h2>Number Guessing Game</h2>
+        <div class="images">
+            <div class="img1">
+                <img src="./images/guess.png" alt="not found">
+            </div>
+            <div class="img2">
+                <img src="./images/congratulation.png" alt="not found">
+            </div>
+            <div class="img3">
+                <img src="./images/Opps.png" alt="not found">
+            </div>
+        </div>
+        <h3 class="player_heading">Player One</h3>
+        <div class="mainn_players">
+            <div class="player_one_main">
+                <input class="player_one_input" type="text" placeholder="Enter your number">
+                <p class="player_one_error"></p>
+                <button class="btn_one">Start</button>
+            </div>
+            <div class="player_two_main">
+                <h4 class="chance_main">Remain chance: <span class="chance">5</span></h4>
+                <input class="player_two_input" type="text" placeholder="Enter your number">
+                <p class="player_two_error"></p>
+                <button class="btn_two">Guess</button>
+                <button class="btn_three">Start again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
