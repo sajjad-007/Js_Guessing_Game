@@ -3,11 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+#new{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 .game_main{
     width: 400px;
     background-color: rgb(209, 231, 136);
     text-align: center;
-    margin: 10px auto;
+    margin: auto auto;
     border-radius: 20px;
     overflow: hidden;
 
